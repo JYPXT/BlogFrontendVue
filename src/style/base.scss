@@ -1,0 +1,32 @@
+@import './global.scss';
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  text-rendering: geometricPrecision;
+  font-size: 14px;
+  color: $default;
+  background: #f7f7f7;
+}
+
+a {
+  color: $default;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    color: $active;
+  }
+  &:active, &:focus {
+    color: $active;
+  }
+}
+
+.router-link-active {
+  color: $active;
+}

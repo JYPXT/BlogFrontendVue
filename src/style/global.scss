@@ -1,0 +1,24 @@
+$white: #fff;
+
+
+// 字体默认颜色
+$default: #333;
+// 激活字体颜色
+$active: #eb5055;
+// 边框颜色
+$border-color: #eee;
+
+// ======== 混合器 =======
+@mixin limit-width {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@mixin clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
