@@ -4,7 +4,6 @@
   </div>
 </template>
 <script>
-// 小弟技术不行，只能用别人的分页
 import ElPagination from 'element-pagination'
 import 'element-ui/lib/theme-chalk/icon.css'
 import 'element-ui/lib/theme-chalk/pagination.css'
